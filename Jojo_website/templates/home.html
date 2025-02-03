@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ❤️</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="heart"></div>
+        <h1>Dear Jojo,</h1>
+        <div class="proposal-text">
+            <p>You are my smelly butt and best friend.</p>
+            <p>Every moment with you is precious...</p>
+            <div class="question">
+                <h2>Will you be my Valentine?</h2>
+                <div class="buttons">
+                    <button class="yes-btn" onclick="sayYes()">Yes 💝</button>
+                    <button class="no-btn" onmouseover="moveButton(this)">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', path='/script.js') }}"></script>
+</body>
+</html> 
